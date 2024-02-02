@@ -7,4 +7,4 @@
 
 [Тестовый сайт](https://vitaliymyasoedov.github.io/test_site "Тестовый сайт") - Работа с сайтом.
 
-[Тестовый сайт Оптрона](https://vitaliymyasoedov.github.io/optron "Оптрон тест") - изучение CSS.
+[Тестовый сайт Оптрона](https://vitaliymyasoedov.github.io/Optron "Оптрон тест") - изучение CSS.
