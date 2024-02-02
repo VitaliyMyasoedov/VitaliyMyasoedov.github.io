@@ -1,0 +1,274 @@
+/*Colors*/
+@bg-color: rgba(18, 20, 23, 0.5);
+@shadow-color: #538ef5;
+
+/*Fonts*/
+.cubic() {
+	font-family: 'Bicubik', sans-serif;
+	color: #BCD0F5;
+}
+.play-b() {
+	font-family: 'PlayBolt', sans-serif;
+	color: #BCD0F5;
+}
+.play-r() {
+	font-family: 'PlayReg', sans-serif;
+	color: #BCD0F5;
+}
+/*Backgrounds*/
+.background-1 {
+	background-image: url('../img/bg-home.jpg');
+	background-origin: padding-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	height: 100vh;
+}
+.background-2 {
+	background-image: url('../img/bg-main.jpg');
+	background-origin: padding-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 12vh;
+	height: 100%;
+}
+
+
+body {
+	font-size: 10px;
+}
+a {
+	text-decoration: none;
+	.cubic();
+	
+}
+a:hover {
+	text-shadow: 1px 1px 2px black, 1px 1px 8px @shadow-color, 0 0 16px @shadow-color;	
+}
+
+/*Header*/
+header {
+	position: sticky;
+	top: 0;
+	h1 {
+		font-size: 48px;
+	}	
+	padding-top: 4rem;
+	/*background-color: blue;*/
+}
+
+.header-row1 {	
+	align-items: center;
+	vertical-align: center;
+	text-align: center;
+}
+.header-row2 {
+	background-color: rgba(18, 20, 23, 0.5);
+	padding: 10px;
+	border-radius: 20px;
+	a {
+		font-size: 16px;
+	}
+}
+.header-row2:hover {	
+	box-shadow: 1px 1px 2px black, 1px 1px 8px @shadow-color, 0 0 16px @shadow-color;	
+}
+.wrap-button {
+	background-color: rgba(18, 20, 23, 0.5);
+	border-radius: 40px;
+	padding: 10px;
+	text-align: center;
+}
+.wrap-button:hover {
+	box-shadow: 1px 1px 2px black, 1px 1px 8px @shadow-color, 0 0 16px @shadow-color;
+	text-shadow: 1px 1px 2px black, 1px 1px 8px @shadow-color, 0 0 16px @shadow-color;
+}
+.button {
+	font-size: 16px;
+	align-items: center;
+}
+
+/*Main page*/
+/*Home section*/
+
+main {
+	
+}
+
+.home-row1 {	
+	text-align: center;
+	margin-top: 60px;	
+}
+.home-row2 {	
+	margin-top: 40px;
+	font-size: 48px;
+	.play-b()
+}
+
+.slogan1 {
+	text-align: left top;
+}
+.slogan2 {
+	padding-top: 48px;
+	text-align: right bottom;
+}
+
+/*Transit section*/
+.info-section {
+	position: absolute;
+	width: 100%;
+	height: 12vh;
+	top: 100vh;	
+	background: linear-gradient(#000, #123DC0)	
+}
+.info-row {
+	padding-top: 4vh;
+	margin: 0;
+	text-align: center;		
+	font-size: 32px;
+	.cubic();
+}
+/*About Us section*/
+.aboutus-section {
+	h2 {
+		.cubic();
+		font-size: 32px;
+		text-align: center;
+	}
+	p {
+		.play-r();
+		font-size: 14px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	img {
+		padding-top: 70px;
+	}
+	padding-top: 300px;
+}
+
+/*Services section*/
+
+.services-section {
+	padding-top: 250px;
+	h2 {
+		.cubic();
+		font-size: 32px;
+		text-align: center;
+	}
+}
+.services-row1, .services-row2 {
+
+	
+}
+
+.serv-1, .serv-2, .serv-3, .serv-4 {
+	display: inline-block;
+	margin: 50px;
+	padding: 50px;
+	width: 400px;
+	height: 400px;	
+	background-color: rgba(18, 20, 23, 0.5);
+	border-radius: 40px;	
+	h3 {
+		.cubic();
+		font-size: 20px;
+		text-align: center;
+	}
+	ul {
+		.play-r();
+		font-size: 14px;
+	}
+}
+
+/*Why us section*/
+
+.whyus-section {
+	margin-top: 250px;	
+	h2 {
+		.cubic();
+		font-size: 32px;
+		text-align: center;
+		margin-top: 50px;		
+	}	
+}
+
+.whyus-container {
+	background-color: rgba(18, 20, 23, 0.5);
+	border-radius: 40px;
+}
+
+.adw-1, .adw-2, .adw-3, .adw-4 {
+	text-align: center;
+	margin-top: 25px;
+	padding: 25px;
+	h3 {
+		.play-b();
+		font-size: 24px;
+	}
+	p {
+		.play-r();
+		font-size: 14px;
+	}
+}
+
+/*Contacts section*/
+
+.contacts-section {
+	margin-top: 250px;
+}
+
+.contacts-row1 {
+	h2 {
+		.cubic();
+		font-size: 32px;
+		text-align: center;
+		margin-top: 50px;
+	}
+}
+.contacts-row2 {	
+	margin-top: 50px;
+	iframe {
+		border-radius: 40px;
+		box-shadow: 1px 1px 2px black, 1px 1px 8px @shadow-color, 0 0 16px @shadow-color;
+	}
+	.schedule-row {
+		margin-top: 50px;
+		padding: 25px;
+		text-align: center;
+		.play-r();
+		font-size: 20px;
+		background-color: rgba(18, 20, 23, 0.5);
+		border-radius: 40px;
+	}
+	.contacts-col1, .contacts-col2 {
+		margin: 0 25px 0 25px;
+	}
+
+
+	.contacts-col2 {
+		background-color: rgba(18, 20, 23, 0.5);
+		border-radius: 40px;
+		.play-r();
+		font-size: 24px;
+		text-align: center;
+		padding-top: 50px;		
+		.contacts-row1-1 {
+			padding: 100px 150px 0 150px;
+		}		
+	}
+}
+
+/*Footer*/
+
+footer {
+	h3 {
+		.cubic();
+		font-size: 14px;
+		text-align: center;
+	}
+	margin-top: 150px;
+	border-top: solid 2px #BCD0F5;
+	box-shadow: 0px -10px 10px @shadow-color;
+	padding: 25px;	
+}

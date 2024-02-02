@@ -1,0 +1,45 @@
+../fonts/bicubic/@font-face {
+    font-family:'Bicubik';
+    src: url('../fonts/bicubic/Bicubik Regular.eot');
+	src: url('../fonts/bicubic/Bicubik Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bicubic/Bicubik Regular.woff2') format('woff2'),
+		url('../fonts/bicubic/Bicubik Regular.woff') format('woff'),
+		url('../fonts/bicubic/Bicubik Regular.ttf') format('truetype'),
+		url('../fonts/bicubic/Bicubik Regular.otf') format('opentype'),
+		url('../fonts/bicubic/Bicubik Regular.svg#Bicubik Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00BB;
+}
+
+@font-face {
+    font-family:'PlayReg';
+    src: url('../fonts/play/Play Regular.eot');
+    src: url('../fonts/play/Play R../fonts/play/egular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/play/Play Regular.woff2') format('woff2'),
+        url('../fonts/play/Play Regular.woff') format('woff'),
+        url('../fonts/play/Play Regular.ttf') format('truetype'),
+        url('../fonts/play/Play Regular.otf') format('opentype'),
+        url('../fonts/play/Play Regular.svg#Play Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0525;
+}
+
+@font-face {
+    font-family:'PlayBolt';
+    src: url('../fonts/play/Play Bold.eot');
+    src: url('../fonts/play/Play Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/play/Play Bold.woff2') format('woff2'),
+        url('../fonts/play/Play Bold.woff') format('woff'),
+        url('../fonts/play/Play Bold.ttf') format('truetype'),
+        url('../fonts/play/Play Bold.otf') format('opentype'),
+        url('../fonts/play/Play Bold.svg#Play Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0525;
+}
+
