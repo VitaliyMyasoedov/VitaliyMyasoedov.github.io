@@ -11,57 +11,55 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-4 logo">
-                    <img src="assets/img/logo.svg" alt="logo">
-                    <p>devcloud solution</p>
+            <div class="row header-row">
+                <div class="col-4 header-logo">
+                    <a href="#Home"><img src="assets/img/logo.svg" alt="devcloud solution" loading="lazy">
+                    <p>devcloud solution</p></a>                    
                 </div>
                 <div class="col-8 nav-col">
-                    <nav>
-                        <ul class="menu">
-                            <li class="nav-item"><a href="#">Главная</a></li>
-                            <li class="nav-item services">Услуги 
+                    <nav class="header-menu">
+                        <ul class="header-menu-list">
+                            <li class="header-menu-item"><a href="#">Главная</a></li>
+                            <li class="header-menu-item"><a href="#">Услуги</a> 
                                 <ul class="sub-menu">
-                                    <li class="nav-item sub-item"><a href="#">Разработка 
+                                    <li class="header-menu-item"><a href="#">Разработка 
                                         мобильных приложений</a></li>
-                                    <li class="nav-item sub-item"><a href="#">Разработка  
+                                    <li class="header-menu-item"><a href="#">Разработка  
                                         программного обеспечения</a></li>
-                                    <li class="nav-item sub-item"><a href="#">Разработка
+                                    <li class="header-menu-item"><a href="#">Разработка
                                         веб приложений</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a href="#">Как мы работаем</a></li>
-                            <li class="nav-item"><a href="#">Портфолио</a></li>
-                            <li class="nav-item"><a href="#">О нас</a></li>
-                            <li class="nav-item"><a href="#">Контакты</a></li>
+                            <li class="header-menu-item"><a href="#">Как мы работаем</a></li>
+                            <li class="header-menu-item"><a href="#">Портфолио</a></li>
+                            <li class="header-menu-item"><a href="#">О нас</a></li>
+                            <li class="header-menu-item"><a href="#">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-        </div>
+        </div>  
     </header>
-    <main>
-        <div class="background-wrapper"></div>        
-            <section class="section-1">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col"><h1>Компания по разработке<br> програмного обеспечения</h1></div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col">
-                            <button class="button-main-1 button-1">Запросить консультацию</button>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col">
-                            <div class="cons-arrow"><a href="#"><img src="assets/img/arrow2.png" alt="arrow"></a></div>
-                        </div>
+    <main>               
+        <section class="section-1">
+            <div class="container">
+                <div class="row text-center main-text-row">
+                    <div class="col main-text-col"><h1>Компания по разработке<br> програмного обеспечения</h1></div>
+                </div>
+                <div class="row main-button-row">
+                    <div class="col main-button-col">
+                        <button class="button-main-1 button-1">Запросить консультацию</button>
                     </div>
                 </div>
-            </section>        
-        </div>
+                <div class="row text-center main-arrow-row">
+                    <div class="col main-arrow-col">
+                        <a href="#"><img src="assets/img/arrow2.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </section>          
         <section class="section-2">
             <div class="container">
                 <div class="row text-center">
@@ -93,7 +91,7 @@
                 <div class="row">
                     <div class="col text-center"><h2>Основные услуги</h2></div>
                 </div>
-                <div class="row">
+                <div class="row services-row">
                     <div class="col">
                         <div class="service-1-wrap">
                             <img src="assets/img/service-1.png" alt="" class="icon">
@@ -267,7 +265,7 @@
                 <div class="row text-center">
                     <div class="col"><h2>Инструменты и технологии</h2></div>
                 </div>
-                <div class="row">
+                <div class="row tools-row">
                     <div class="col tools">
                         <img src="assets/img/Tools/react_original_wordmark_logo_icon_146375 1.png" alt="1">
                         <img src="assets/img/Tools/xamarin_outline_icon_139072 1.png" alt="2">
@@ -326,7 +324,7 @@
         <div class="container">
             <div class="row footer-row">
                 <div class="col-4">
-                    <div class="logo">
+                    <div class="header-logo logo">
                         <img src="assets/img/logo.svg" alt="logo">
                         <p>devcloud solution</p>
                     </div>
