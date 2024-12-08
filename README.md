@@ -7,4 +7,6 @@
 
 [Тестовый сайт Оптрона](https://vitaliymyasoedov.github.io/Optron "Оптрон тест") - изучение CSS.
 
+[Тестовый сайт Мегаома](https://vitaliymyasoedov.github.io/Megaom "Мегаом тест") - изучение CSS.
+
 [Финальное задание Stepik](https://vitaliymyasoedov.github.io/Stepik "Stepik тест")  - финальное задание по верстке на Stepik-e
