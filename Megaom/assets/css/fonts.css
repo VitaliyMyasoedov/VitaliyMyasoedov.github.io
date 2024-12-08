@@ -1,0 +1,42 @@
+@font-face {
+  font-family:'Russo One';
+  src: url('../fonts/Russo_One/One.eot');
+src: url('../fonts/Russo_One/Russo One.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Russo_One/Russo One.woff2') format('woff2'),
+  url('../fonts/Russo_One/Russo One.woff') format('woff'),
+  url('../fonts/Russo_One/Russo One.ttf') format('truetype'),
+  url('../fonts/Russo_One/Russo One.otf') format('opentype'),
+  url('../fonts/Russo_One/Russo One.svg#Russo One') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Noto Sans';
+    src: url('../fonts/Noto Sans/Sans Regular.woff2') format('woff2'),
+		url('../fonts/Noto Sans/Noto Sans Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0946;
+}
+@font-face {
+    font-family:'Noto Sans Bold';
+    src: url('../fonts/Noto Sans/Noto Sans Bold.woff2') format('woff2'),
+		url('../fonts/Noto Sans/Noto Sans Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0946;
+}
+@font-face {
+    font-family:'Noto Sans Light';
+    src: url('../fonts/Noto Sans/Noto Sans Light.woff2') format('woff2'),
+		url('../fonts/Noto Sans/Noto Sans Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0946;
+}
