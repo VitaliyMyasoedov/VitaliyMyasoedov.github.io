@@ -104,11 +104,28 @@ button:hover {
   width: 40vh;  
   text-align: center;
 }
+.modal-wrapper {
+    position: relative;
+}
+.modal-wrapper:after {
+    content: "В разработке";
+    position: absolute;
+    top: 145px;
+    left: -40px;
+    width: 460px;
+    height: 70px;    
+    z-index: 5;
+    font-family: var(--font-headers);
+    font-size: 50px;
+    color: red;
+    transform: rotate(45deg);
+    opacity: 0.3;
+}
 
 .close {
   position: absolute;
-  top: 190px;
-  right: 610px;
+  top: -70px;
+  right: -50px;
   cursor: pointer;
   font-size: 50px;
   color: var(--color-statik-yellow);
@@ -159,6 +176,8 @@ button:hover {
 }
 .header-logo {
     display: flex;
+    margin: 0.5vh;
+    padding: 3px;    
     align-items: center;    
     justify-self: start;
     flex-shrink: 0;
@@ -461,6 +480,9 @@ main {
     }
     iframe {
         max-width: 75%;
+    }
+    .modal-content {
+        scale: 0.8;
     }
 
 }
